@@ -70,6 +70,8 @@ hi("VisualNOS", { fg = colors.selection_fg, bg = colors.selection_bg })
 -- Window elements
 hi("StatusLine", { fg = colors.foreground, bg = colors.bg_light })
 hi("StatusLineNC", { fg = colors.comment, bg = colors.bg_dark })
+hi("WinBar", { fg = colors.cyan, bg = colors.background })
+hi("WinBarNC", { fg = colors.comment, bg = colors.background })
 hi("VertSplit", { fg = colors.border, bg = colors.background })
 hi("WinSeparator", { fg = colors.border, bg = colors.background })
 hi("SignColumn", { bg = colors.background })
