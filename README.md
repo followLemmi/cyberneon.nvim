@@ -27,22 +27,22 @@ Dark blue depths meet acid green highlights in this futuristic theme that brings
 
 ## 🎨 Color Palette
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Background | `#151144` | Main background |
-| Foreground | `#00ff92` | Main text, variables, calls |
-| Black | `#080808` | Terminal color |
-| Red | `#ff8373` | Errors, git deleted |
-| Green | `#00c172` | Strings, git added |
-| Yellow | `#d2a700` | Warnings, search |
-| Blue | `#0071cf` | Terminal color |
-| Magenta | `#ff90fe` | Keywords (if, for, const, etc.) |
-| Cyan | `#6bffdd` | Functions, types |
-| White | `#f1f1f1` | Comments, inactive text |
+| Color | Hex | Preview | Usage |
+|-------|-----|---------|-------|
+| Background | `#151144` | ![](https://img.shields.io/badge/-%23151144-151144?style=flat-square) | Main background |
+| Foreground | `#00ff92` | ![](https://img.shields.io/badge/-%2300ff92-00ff92?style=flat-square) | Main text, variables, calls |
+| Black | `#080808` | ![](https://img.shields.io/badge/-%23080808-080808?style=flat-square) | Terminal color |
+| Red | `#ff8373` | ![](https://img.shields.io/badge/-%23ff8373-ff8373?style=flat-square) | Errors, git deleted |
+| Green | `#00c172` | ![](https://img.shields.io/badge/-%2300c172-00c172?style=flat-square) | Strings, git added |
+| Yellow | `#d2a700` | ![](https://img.shields.io/badge/-%23d2a700-d2a700?style=flat-square) | Warnings, search |
+| Blue | `#0071cf` | ![](https://img.shields.io/badge/-%230071cf-0071cf?style=flat-square) | Terminal color |
+| Magenta | `#ff90fe` | ![](https://img.shields.io/badge/-%23ff90fe-ff90fe?style=flat-square) | Keywords (if, for, const, etc.) |
+| Cyan | `#6bffdd` | ![](https://img.shields.io/badge/-%236bffdd-6bffdd?style=flat-square) | Functions, types |
+| White | `#f1f1f1` | ![](https://img.shields.io/badge/-%23f1f1f1-f1f1f1?style=flat-square) | Comments, inactive text |
 
 ## 📦 Installation
 
-### [lazy.nvim](https://github.com/folke/lazy.nvim) (recommended)
+### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
