@@ -103,7 +103,7 @@ hi("Boolean", { fg = colors.magenta })
 hi("Float", { fg = colors.magenta })
 
 hi("Identifier", { fg = colors.cyan })
-hi("Function", { fg = colors.blue, style = "bold" })
+hi("Function", { fg = colors.cyan })
 
 hi("Statement", { fg = colors.magenta })
 hi("Conditional", { fg = colors.magenta })
@@ -153,12 +153,12 @@ hi("@string.regexp", { fg = colors.bright_green })
 hi("@number", { fg = colors.magenta })
 hi("@boolean", { fg = colors.magenta })
 
-hi("@function", { fg = colors.blue, style = "bold" })
-hi("@function.builtin", { fg = colors.blue })
+hi("@function", { fg = colors.cyan })
+hi("@function.builtin", { fg = colors.cyan })
 hi("@function.call", { fg = colors.cyan })
 hi("@function.macro", { fg = colors.yellow })
 
-hi("@method", { fg = colors.blue })
+hi("@method", { fg = colors.cyan })
 hi("@method.call", { fg = colors.cyan })
 
 hi("@constructor", { fg = colors.cyan })
