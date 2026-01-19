@@ -27,18 +27,18 @@ Dark blue depths meet acid green highlights in this futuristic theme that brings
 
 ## 🎨 Color Palette
 
-| Color | Hex | Preview |
-|-------|-----|---------|
-| Background | `#151144` | ![#151144](https://via.placeholder.com/50x20/151144/151144.png) |
-| Foreground | `#00ff92` | ![#00ff92](https://via.placeholder.com/50x20/00ff92/00ff92.png) |
-| Black | `#080808` | ![#080808](https://via.placeholder.com/50x20/080808/080808.png) |
-| Red | `#ff8373` | ![#ff8373](https://via.placeholder.com/50x20/ff8373/ff8373.png) |
-| Green | `#00c172` | ![#00c172](https://via.placeholder.com/50x20/00c172/00c172.png) |
-| Yellow | `#d2a700` | ![#d2a700](https://via.placeholder.com/50x20/d2a700/d2a700.png) |
-| Blue | `#0071cf` | ![#0071cf](https://via.placeholder.com/50x20/0071cf/0071cf.png) |
-| Magenta | `#ff90fe` | ![#ff90fe](https://via.placeholder.com/50x20/ff90fe/ff90fe.png) |
-| Cyan | `#6bffdd` | ![#6bffdd](https://via.placeholder.com/50x20/6bffdd/6bffdd.png) |
-| White | `#f1f1f1` | ![#f1f1f1](https://via.placeholder.com/50x20/f1f1f1/f1f1f1.png) |
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Background | `#151144` | Main background |
+| Foreground | `#00ff92` | Main text, variables, calls |
+| Black | `#080808` | Terminal color |
+| Red | `#ff8373` | Errors, git deleted |
+| Green | `#00c172` | Strings, git added |
+| Yellow | `#d2a700` | Warnings, search |
+| Blue | `#0071cf` | Terminal color |
+| Magenta | `#ff90fe` | Keywords (if, for, const, etc.) |
+| Cyan | `#6bffdd` | Functions, types |
+| White | `#f1f1f1` | Comments, inactive text |
 
 ## 📦 Installation
 
