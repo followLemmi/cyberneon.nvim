@@ -4,6 +4,11 @@ A cyberpunk-inspired Neovim colorscheme based on the **Ghostty Cyberdyne** termi
 
 Dark blue depths meet acid green highlights in this futuristic theme that brings the essence of cyberpunk aesthetics to your editor.
 
+## Screenshots
+
+![Code Example](screenshots/code-example.png)
+![Dashboard](screenshots/dashboard.png)
+
 ## ✨ Features
 
 - 🎨 Authentic Ghostty Cyberdyne color palette
@@ -41,7 +46,7 @@ Dark blue depths meet acid green highlights in this futuristic theme that brings
 
 ```lua
 {
-  "yourusername/cyberdyne-port.nvim",
+  "followLemmi/cyberdyne-port.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -54,7 +59,7 @@ Dark blue depths meet acid green highlights in this futuristic theme that brings
 
 ```lua
 use {
-  "yourusername/cyberdyne-port.nvim",
+  "followLemmi/cyberdyne-port.nvim",
   config = function()
     vim.cmd([[colorscheme cyberdyne-port]])
   end
@@ -64,7 +69,7 @@ use {
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'yourusername/cyberdyne-port.nvim'
+Plug 'followLemmi/cyberdyne-port.nvim'
 
 " In your init.vim or after plug#end()
 colorscheme cyberdyne-port
@@ -74,7 +79,7 @@ colorscheme cyberdyne-port
 
 ```lua
 {
-  "yourusername/cyberdyne-port.nvim",
+  "followLemmi/cyberdyne-port.nvim",
   config = function()
     vim.cmd([[colorscheme cyberdyne-port]])
   end
@@ -84,22 +89,10 @@ colorscheme cyberdyne-port
 ### [dein.vim](https://github.com/Shougo/dein.vim)
 
 ```vim
-call dein#add('yourusername/cyberdyne-port.nvim')
+call dein#add('followLemmi/cyberdyne-port.nvim')
 
 " After dein setup
 colorscheme cyberdyne-port
-```
-
-### Manual Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/cyberdyne-port.nvim ~/.config/nvim/pack/themes/start/cyberdyne-port.nvim
-```
-
-2. Add to your `init.lua` or `init.vim`:
-```lua
-vim.cmd([[colorscheme cyberdyne-port]])
 ```
 
 ## 🔧 Configuration
@@ -130,7 +123,7 @@ return {
 -- In ~/.config/nvim/lua/plugins/colorscheme.lua
 return {
   {
-    "yourusername/cyberdyne-port.nvim",
+    "followLemmi/cyberdyne-port.nvim",
   },
   {
     "LazyVim/LazyVim",
@@ -148,7 +141,7 @@ In your `~/.config/lvim/config.lua`:
 ```lua
 lvim.colorscheme = "cyberdyne-port"
 lvim.plugins = {
-  { "yourusername/cyberdyne-port.nvim" },
+  { "followLemmi/cyberdyne-port.nvim" },
 }
 ```
 
@@ -168,15 +161,13 @@ And in `~/.config/nvim/lua/custom/plugins.lua`:
 
 ```lua
 return {
-  { "yourusername/cyberdyne-port.nvim" },
+  { "followLemmi/cyberdyne-port.nvim" },
 }
 ```
 
 ## 🌟 Credits
 
 This theme is a port of the [Ghostty](https://ghostty.org) Cyberdyne color scheme to Neovim.
-
-Original Ghostty theme: [Cyberdyne](https://github.com/ghostty-org/ghostty)
 
 ## 📝 License
 
@@ -189,8 +180,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## 🔗 Related
 
 - [Ghostty Terminal](https://ghostty.org) - A fast, native, GPU-accelerated terminal emulator
-- [Original Cyberdyne Theme](https://github.com/ghostty-org/ghostty/blob/main/themes/cyberdyne)
-
 ---
 
 Made with 💚 for the cyberpunk aesthetic

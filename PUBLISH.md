@@ -90,8 +90,8 @@ git push
 
 1. Go to your repository on GitHub
 2. Click "Releases" → "Create a new release"
-3. Tag version: `v1.0.0`
-4. Release title: `v1.0.0 - Initial Release`
+3. Tag version: `v0.1.0`
+4. Release title: `v0.1.0 - Initial Beta Release`
 5. Description: Copy from CHANGELOG.md
 6. Click "Publish release"
 
@@ -129,8 +129,8 @@ git push
 
 ```bash
 # Tag the release
-git tag -a v1.1.0 -m "Release v1.1.0"
-git push origin v1.1.0
+git tag -a v0.2.0 -m "Release v0.2.0"
+git push origin v0.2.0
 ```
 
 Then create the release on GitHub.

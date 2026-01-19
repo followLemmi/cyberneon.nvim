@@ -5,7 +5,7 @@
 local M = {}
 
 -- Constants
-local VERSION = "1.0.0"
+local VERSION = "0.1.0"
 local MAX_RETRIES = 3
 local DEFAULT_TIMEOUT = 5000
 
