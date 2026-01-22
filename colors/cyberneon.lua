@@ -256,6 +256,16 @@ hi("NeoTreeTitleBar", { fg = colors.cyan, bg = colors.bg_dark, style = "bold" })
 hi("NeoTreeFloatNormal", { fg = colors.foreground, bg = colors.bg_dark })
 hi("NeoTreeMessage", { fg = colors.foreground, bg = colors.bg_dark })
 
+-- Snacks.explorer
+hi("SnacksExplorerNormal", { fg = colors.white, bg = colors.bg_dark })
+hi("SnacksExplorerNormalNC", { fg = colors.white, bg = colors.bg_dark })
+hi("SnacksExplorerDirectory", { fg = colors.cyan })
+hi("SnacksExplorerFile", { fg = colors.white })
+hi("SnacksExplorerGitAdded", { fg = colors.green })
+hi("SnacksExplorerGitModified", { fg = colors.yellow })
+hi("SnacksExplorerGitDeleted", { fg = colors.red })
+hi("SnacksExplorerGitUntracked", { fg = colors.comment })
+
 -- Which-key
 hi("WhichKey", { fg = colors.cyan })
 hi("WhichKeyGroup", { fg = colors.blue })
